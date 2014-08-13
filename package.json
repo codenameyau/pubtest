@@ -1,0 +1,35 @@
+{
+  "name": "pubtest",
+  "version": "0.0.1",
+  "description": "JavaScript unit test with browser console",
+  "main": "src/pubtest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codenameyau/pubtest.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "js",
+    "unit",
+    "test",
+    "browser",
+    "console",
+    "client",
+    "front-end"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codenameyau/pubtest/issues"
+  },
+  "homepage": "https://github.com/codenameyau/pubtest",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1",
+    "rimraf": "^2.2.8"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "pubtest",
+  "version": "0.0.0",
+  "homepage": "https://github.com/codenameyau/pubtest",
+  "authors": [
+    "Jorge Yau <jyau01@citymail.cuny.edu>"
+  ],
+  "description": "JavaScript unit test with browser console",
+  "main": "src/pubtest.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "javascript",
+    "unit",
+    "test",
+    "testing",
+    "client",
+    "browser",
+    "console",
+    "simple"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/**"
+  ]
+}

@@ -4,12 +4,12 @@ pubtest
 ###Description
 Run JavaScript unit tests with a modern browser console.
 
-PubTest contains the simple essentials for unit testing on the client side 
+PubTest contains the simple essentials for unit testing on the client side
 without requiring node dependencies or conforming to a TDD/BDD style syntax.
 
 Documentation coming soon.
 
-Read `src/pubtest.js` for now. It's very short. 
+Read `src/pubtest.js` for now. It's very short.
 
 ##Installation
 
@@ -34,8 +34,8 @@ Run: `bower install pubtest --save-dev`
     <!-- Test suite -->
     <script src="pubtest.min.js"></script>
     <script src="test-maths.js"></script>
-    
   </body>
+
 </html>
 ```
 
@@ -57,15 +57,15 @@ var test = new PubTest('Maths');
 // Callback used for local scope
 test.testCase(function() {
 
-  test.assertEqual(factorial(0), 1, 
+  test.assertEqual(factorial(0), 1,
     'factorial of 0 should equal 1');
 
   test.assertEqual(factorial(1), 1,
     'factorial of 1 should equal 1');
-    
+
   test.assertEqual(factorial(5), 120,
     'factorial of 5 should equal 120');
-    
+
 });
 
 // Show results in browser console (ctr+shift+j)

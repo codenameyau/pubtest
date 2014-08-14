@@ -2,10 +2,8 @@ pubtest
 =======
 
 ###Description
-Run JavaScript unit tests with a modern browser console.
-
-PubTest contains the simple essentials for unit testing on the client side
-without requiring node dependencies or conforming to a TDD/BDD style syntax.
+PubTest lets you run JavaScript unit tests on the client-side
+while displaying results on your browser console.
 
 Documentation coming soon.
 
@@ -42,8 +40,8 @@ Run: `bower install pubtest --save-dev`
 
 #####`maths.js`
 ```javascript
-var factorial = function(n) {
-  return (n < 2) ? 1 : n * factorial(n-1);
+var sexyFactorial = function(n) {
+  return (n < 2) ? 1 : n * sexyFactorial(n-1);
 };
 ```
 
@@ -57,13 +55,13 @@ var test = new PubTest('Maths');
 // Callback used for local scope
 test.testCase(function() {
 
-  test.assertEqual(factorial(0), 1,
+  test.assertEqual(sexyFactorial(0), 1,
     'factorial of 0 should equal 1');
 
-  test.assertEqual(factorial(1), 1,
+  test.assertEqual(sexyFactorial(1), 1,
     'factorial of 1 should equal 1');
 
-  test.assertEqual(factorial(5), 120,
+  test.assertEqual(sexyFactorial(5), 120,
     'factorial of 5 should equal 120');
 
 });

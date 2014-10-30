@@ -111,15 +111,18 @@ PubTest.prototype.assertType = function(value, type, message) {
 };
 
 PubTest.prototype.assertString = function(value, message) {
-  this.assertType(value, 'string', message);
+  var assertion = this.assertType(value, 'string', message);
+  this._addCase(assertion, message);
 };
 
 PubTest.prototype.assertNumber = function(value, message) {
-  this.assertType(value, 'number', message);
+  var assertion = this.assertType(value, 'number', message);
+  this._addCase(assertion, message);
 };
 
 PubTest.prototype.assertBoolean = function(value, message) {
-  this.assertType(value, 'boolean', message);
+  var assertion = this.assertType(value, 'boolean', message);
+  this._addCase(assertion, message);
 };
 
 PubTest.prototype.assertInteger = function(value, message) {

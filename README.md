@@ -2,12 +2,12 @@ pubtest
 =======
 
 ###Description
-PubTest lets you run JavaScript unit tests on the client-side
-while displaying results on your browser console.
+PubTest lets you run JavaScript unit tests in your browser console. It's a quick
+way to test ES5 code for code without a client-side module loader.
 
 ![pubtest-screenshot](https://cloud.githubusercontent.com/assets/3826772/22871237/07dd858e-f17d-11e6-8531-b2dbc530a9bd.png)
 
-Read `src/pubtest.js` for all available assertions. Docs coming soon..
+Read [src/pubtest.js](https://github.com/codenameyau/pubtest/blob/master/src/pubtest.js#L45-L170) for all available assertions. Docs coming soon...
 
 ## Installation
 
@@ -72,5 +72,4 @@ test.results();
 ```
 
 ### External Examples
-
 - https://github.com/codenameyau/forest-ecosystem/tree/master/public/test

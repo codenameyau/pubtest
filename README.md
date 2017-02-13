@@ -5,6 +5,8 @@ pubtest
 PubTest lets you run JavaScript unit tests on the client-side
 while displaying results on your browser console.
 
+![pubtest-screenshot](https://cloud.githubusercontent.com/assets/3826772/22871237/07dd858e-f17d-11e6-8531-b2dbc530a9bd.png)
+
 Read `src/pubtest.js` for all available assertions. Docs coming soon..
 
 ## Installation

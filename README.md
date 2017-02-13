@@ -5,18 +5,17 @@ pubtest
 PubTest lets you run JavaScript unit tests on the client-side
 while displaying results on your browser console.
 
-Documentation coming soon.
+Read `src/pubtest.js` for all available assertions. Docs coming soon..
 
-Read `src/pubtest.js` for now. It's very short.
+## Installation
 
-##Installation
-
-#####Method 1: Manual
+##### Method 1: Manual
 Add `build/pubtest.min.js` to your project.
 
-#####Method 2: Bower
-Run: `bower install pubtest --save-dev`
-
+##### Method 2: Bower
+```
+bower install pubtest --save-dev
+```
 
 ##Quick Guide
 
@@ -70,9 +69,6 @@ test.testCase(function() {
 test.results();
 ```
 
-###External Examples
+### External Examples
 
-PubTest is used for my weekend side projects,
-[Coding Cafe](https://github.com/codenameyau/coding-cafe/tree/master/public/test).
-
-Feel free to look around the `public/test` directory to see how it's used.
+- https://github.com/codenameyau/forest-ecosystem/tree/master/public/test

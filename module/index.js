@@ -6,7 +6,6 @@
  * Description:
  * Client-side tests with browser console.
  */
-'use strict';
 
 /**********************************************************
 * PUBTEST CONSTRUCTOR
@@ -191,3 +190,8 @@ PubTest.prototype._passed = function() {
 PubTest.prototype._failed = function() {
   this.cases.fail++;
 };
+
+/**********************************************************
+* ES6 MODULE EXPORT
+***********************************************************/
+export default PubTest;

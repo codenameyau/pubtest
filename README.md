@@ -2,8 +2,8 @@ pubtest
 =======
 
 ###Description
-PubTest lets you run JavaScript unit tests in your browser console. It's a quick
-way to test ES5 code for code without a client-side module loader.
+Write and run JavaScript unit tests in your browser console. It's a quick
+way to test ES5 code without a module loader.
 
 ![pubtest-screenshot](https://cloud.githubusercontent.com/assets/3826772/22871237/07dd858e-f17d-11e6-8531-b2dbc530a9bd.png)
 
@@ -28,18 +28,18 @@ bower install pubtest --save-dev
 
   <body>
     <!-- JavaScript source -->
-    <script src="maths.js"></script>
+    <script src="math.js"></script>
 
     <!-- Test suite -->
     <script src="pubtest.min.js"></script>
-    <script src="test-maths.js"></script>
+    <script src="test-math.js"></script>
   </body>
 
 </html>
 ```
 
 
-#####`maths.js`
+#####`math.js`
 ```javascript
 var sexyFactorial = function(n) {
   return (n < 2) ? 1 : n * sexyFactorial(n-1);
@@ -47,7 +47,7 @@ var sexyFactorial = function(n) {
 ```
 
 
-#####`test-maths.js`
+#####`test-math.js`
 ```javascript
 
 // Call the test whatever you want
